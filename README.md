@@ -1,16 +1,68 @@
-# React + Vite
+# Catálogo En React
+## Catálogo de tecnología creado con React + Javascript y Vite.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Requisitos previos
 
-Currently, two official plugins are available:
+- [Node.js](https://nodejs.org/) (versión 20.19 o superior recomendada)
+- npm (viene incluido con Node.js)
+- [Git](https://git-scm.com/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Para verificar que los tienes instalados:
 
-## React Compiler
+```bash
+node -v
+npm -v
+git --version
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Cómo iniciar el proyecto
 
-## Expanding the ESLint configuration
+1. **Clona el repositorio**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+   ```bash
+   git clone https://github.com/Atlost-dev/CatalogoInteractivo-React.git
+   ```
+
+2. **Entra a la carpeta del proyecto**
+
+   ```bash
+   cd CatalogoInteractivo-React
+   ```
+
+3. **Instala las dependencias**
+
+   ```bash
+   npm install
+   ```
+
+4. **Inicia el servidor de desarrollo**
+
+   ```bash
+   npm run dev
+   ```
+
+5. **Abre el proyecto en el navegador**
+
+   Vite mostrará en la terminal una dirección, normalmente [http://localhost:5173](http://localhost:5173). Ábrela en tu navegador.
+
+## Scripts disponibles
+
+| Comando           | Descripción                                          |
+| ----------------- | ---------------------------------------------------- |
+| `npm run dev`     | Inicia el servidor de desarrollo con recarga en vivo |
+| `npm run build`   | Genera la versión de producción en la carpeta `dist` |
+| `npm run preview` | Previsualiza localmente la versión de producción     |
+| `npm run lint`    | Revisa el código con ESLint                          |
+
+## Tecnologías
+
+- React 19
+- JavaScript
+- Vite
+- ESLint
+
+## Problemas comunes
+
+- **`npm: command not found`**: instala Node.js desde su página oficial y reinicia la terminal.
+- **El puerto 5173 está ocupado**: Vite usará otro puerto automáticamente; revisa la dirección que aparece en la terminal.
+- **Errores después de actualizar el proyecto**: borra la carpeta `node_modules` y vuelve a ejecutar `npm install`.
