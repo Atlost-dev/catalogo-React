@@ -18,6 +18,10 @@
 }
 
 /* ===== Layout general ===== */
+html {
+  scroll-padding-top: 120px;
+  overscroll-behavior: none;
+}
 
 .app {
   min-height: 100vh;
