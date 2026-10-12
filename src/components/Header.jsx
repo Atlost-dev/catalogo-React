@@ -3,8 +3,8 @@ function Header({ onSearch }) {
   return (
     <header className="encabezado">
       <div>
-        <h1>TechStore</h1>
-        <p>Tecnologias para estudiar, trabajar y crear</p>
+        <h1>LamperShop</h1>
+        <p>Tecnologías para creer que eres alguien que no eres.</p>
       </div>
 
       <SearchBar onSearch={onSearch} />
