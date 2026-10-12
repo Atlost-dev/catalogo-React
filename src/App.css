@@ -1,16 +1,16 @@
 /* ===== Colores ===== */
 
 :root {
-  --azul: #2563eb;
-  --azul-oscuro: #1d4ed8;
-  --azul-claro: #dbeafe;
-  --gris-azulado: #111827;
-  --gris-600: #4b5563;
-  --gris-500: #6b7280;
-  --gris-300: #d1d5db;
-  --gris-200: #e5e7eb;
+  --azul: #7c3aed;
+  --azul-oscuro: #6d28d9;
+  --azul-claro: #ede9fe;
+  --gris-azulado: #1e1b4b;
+  --gris-600: #4c4a6e;
+  --gris-500: #6b6a8f;
+  --gris-300: #d4d2ec;
+  --gris-200: #e4e2f5;
   --blanco: white;
-  --degradado-brillo: radial-gradient(circle farthest-corner at 10% 20%, rgba(255, 94, 247, 1) 17.8%, rgba(2, 245, 255, 1) 100.2%);
+  --degradado-brillo: radial-gradient(circle farthest-corner at 10% 20%, rgba(167, 139, 250, 1) 17.8%, rgba(129, 140, 248, 1) 100.2%);
 }
 
 
@@ -115,10 +115,10 @@ button:active {
 .search-input {
   flex: 1;
   height: 42px;
-  border: 1px solid #374151;
+  border: 1px solid #3b3a63;
   border-radius: 999px;
   padding: 0 16px;
-  background: #f3f4f6;
+  background: #f1effc;
   color: var(--gris-azulado);
   outline: none;
 }
@@ -352,7 +352,7 @@ button:active {
 /* ===== Sección "Acerca de" (componente About) ===== */
 
 .acerca {
-  background-color: rgb(243, 249, 250);
+  background-color: rgb(245, 243, 255);
   border-radius: 10px;
   font-size: 20px;
 }
@@ -372,7 +372,7 @@ button:active {
 }
 
 .lista li {
-  background-color: #e0e0e0;
+  background-color: #e0def2;
   border-radius: 30px;
   padding: 4px 10px;
   width: fit-content;

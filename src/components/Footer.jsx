@@ -3,7 +3,7 @@ function Footer() {
 
   return (
     <footer className="pie-pagina" id="contacto">
-      <p>{anioActual} TechStore</p>
+      <p>{anioActual} LarperShop</p>
     </footer>
   );
 }
