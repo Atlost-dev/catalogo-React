@@ -10,9 +10,12 @@
   --gris-300: #d4d2ec;
   --gris-200: #e4e2f5;
   --blanco: white;
-  --degradado-brillo: radial-gradient(circle farthest-corner at 10% 20%, rgba(167, 139, 250, 1) 17.8%, rgba(129, 140, 248, 1) 100.2%);
+  --degradado-brillo: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(167, 139, 250, 1) 17.8%,
+    rgba(129, 140, 248, 1) 100.2%
+  );
 }
-
 
 /* ===== Layout general ===== */
 
@@ -27,7 +30,6 @@
   flex: 1;
   padding: 64px 8%;
 }
-
 
 /* ===== Botones base (estilo Uiverse por mrtqzbek11) =====
    Aplica a TODOS los botones. Los botones específicos
@@ -48,7 +50,7 @@ button {
 
 /* Brillo de colores detrás del botón */
 button::after {
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   background-image: var(--degradado-brillo);
@@ -64,7 +66,6 @@ button:active {
   background: var(--degradado-brillo);
   transition: 0.5s;
 }
-
 
 /* ===== Header ===== */
 
@@ -100,7 +101,6 @@ button:active {
   text-decoration: underline;
 }
 
-
 /* ===== Barra de búsqueda ===== */
 
 .search-bar {
@@ -122,7 +122,6 @@ button:active {
   color: var(--gris-azulado);
   outline: none;
 }
-
 
 /* ===== Hero (presentación) ===== */
 
@@ -162,7 +161,6 @@ button:active {
   color: var(--blanco);
   text-decoration: none;
 }
-
 
 /* ===== Catálogo ===== */
 
@@ -243,7 +241,6 @@ button:active {
   color: var(--gris-500);
 }
 
-
 /* ===== Tarjeta de producto ===== */
 
 .producto {
@@ -291,7 +288,6 @@ button:active {
 .producto button:hover {
   background-color: var(--azul-oscuro);
 }
-
 
 /* ===== Carrito ===== */
 
@@ -348,8 +344,7 @@ button:active {
   text-align: right;
 }
 
-
-/* ===== Sección "Acerca de" (componente About) ===== */
+/* ===== Sección "Acerca de" ===== */
 
 .acerca {
   background-color: rgb(245, 243, 255);
@@ -379,7 +374,6 @@ button:active {
   margin-bottom: 15px;
 }
 
-
 /* ===== Footer ===== */
 
 .pie-pagina {
@@ -389,8 +383,7 @@ button:active {
   text-align: center;
 }
 
-
-/* ===== Responsive (de mayor a menor ancho) ===== */
+/* ===== Responsive ===== */
 
 /* Tablet: el carrito pasa debajo del catálogo */
 @media (max-width: 900px) {
