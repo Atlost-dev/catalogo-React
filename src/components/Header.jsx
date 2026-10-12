@@ -3,7 +3,7 @@ function Header({ onSearch }) {
   return (
     <header className="encabezado">
       <div>
-        <h1>LamperShop</h1>
+        <h1>LarperShop</h1>
         <p>Tecnologías para creer que eres alguien que no eres.</p>
       </div>
 
